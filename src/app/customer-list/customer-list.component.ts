@@ -7,18 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class CustomerListComponent implements OnInit {
   customers : string[] = [] ;
-  public newCustomer: string;
-
 
   ngOnInit() {
   }
-
-  public addCustomer() {
-    if (!this.newCustomer || this.newCustomer.length === 0) {
-      return;
-    }
-    this.customers.push(this.newCustomer.trim());
-    this.newCustomer = "";
-  }
-
 }
