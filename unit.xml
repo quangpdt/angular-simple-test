@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 107.0.5304 (Mac OS X 10.15.7)" package="unit" timestamp="2022-12-05T03:20:41" id="0" hostname="VNPC018697" tests="4" errors="0" failures="0" time="0.041">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/107.0.5304.121 Safari/537.36"/>
+  </properties>
+  <testcase name="CustomerListComponent Should not add any customer if input is empty" time="0.024" classname=".CustomerListComponent"/>
+  <testcase name="CustomerListComponent Should clear the input after submit btn is clicked" time="0.008" classname=".CustomerListComponent"/>
+  <testcase name="CustomerListComponent Should add new customers on btn click" time="0.005" classname=".CustomerListComponent"/>
+  <testcase name="CustomerListComponent Should render the initial UI as expected" time="0.004" classname=".CustomerListComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
